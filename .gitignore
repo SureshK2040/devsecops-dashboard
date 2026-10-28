@@ -1,0 +1,28 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Java / Maven
+**/target/
+*.class
+
+# Node / React / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
